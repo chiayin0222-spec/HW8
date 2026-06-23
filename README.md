@@ -4,7 +4,7 @@
 
 > 本專案為教學導向，旨在向高中及機器學習初學者演示支援向量機 (SVM) 如何透過核心技巧 (Kernel Trick) 學習非線性決策邊界。
 
-![SVM Kernel Trick 3D Banner](assets/blueprint.png)
+![SVM Kernel Trick 3D Banner](./assets/blueprint.jpg)
 
 ---
 
@@ -36,10 +36,10 @@
 為了解釋低維不可分到高維線性可分的幾何轉換，本專案提供概念圖表，包含**手繪插畫教學版**與**數位科技設計版**（可於 [重點資訊與圖表指南](svm_project_infographic_report.md) 檢視完整說明）：
 
 ### 💡 手繪插畫教學版
-![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.png)
+![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.jpg)
 
 ### 💻 數位科技設計版
-![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.png)
+![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.jpg)
 
 ---
 
@@ -109,7 +109,7 @@ streamlit run phase3_streamlit_app.py
 
 | 💡 手繪插畫教學版 | 💻 數位科技設計版 |
 | :---: | :---: |
-| ![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.png) | ![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.png) |
+| ![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.jpg) | ![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.jpg) |
 
 ---
 
