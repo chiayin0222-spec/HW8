@@ -92,9 +92,9 @@ graph TD
 以下提供兩種風格的 SVM 核心技巧概念圖（數位科技版與手繪插畫版），展示了從 2D 到 3D 映射、超平面切分再投影回 2D 的完整演進邏輯：
 
 ````carousel
-![手繪插畫版](./assets/svm_kernel_trick_handdrawn.png)
+![手繪插畫版](./svm_kernel_trick_handdrawn.jpg)
 <!-- slide -->
-![數位科技版](./assets/svm_kernel_trick_infographic.png)
+![數位科技版](./svm_kernel_trick_infographic.jpg)
 ````
 
 > [!NOTE]

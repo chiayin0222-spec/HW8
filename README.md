@@ -4,7 +4,7 @@
 
 > 本專案為教學導向，旨在向高中及機器學習初學者演示支援向量機 (SVM) 如何透過核心技巧 (Kernel Trick) 學習非線性決策邊界。
 
-![SVM Kernel Trick 3D Banner](./assets/blueprint.jpg)
+![SVM Kernel Trick 3D Banner](./svm_kernel_trick_infographic.jpg)
 
 ---
 
@@ -36,10 +36,10 @@
 為了解釋低維不可分到高維線性可分的幾何轉換，本專案提供概念圖表，包含**手繪插畫教學版**與**數位科技設計版**（可於 [重點資訊與圖表指南](svm_project_infographic_report.md) 檢視完整說明）：
 
 ### 💡 手繪插畫教學版
-![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.jpg)
+![SVM Kernel Trick Handdrawn Concept](./svm_kernel_trick_handdrawn.jpg)
 
 ### 💻 數位科技設計版
-![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.jpg)
+![SVM Kernel Trick Digital Concept](./svm_kernel_trick_infographic.jpg)
 
 ---
 
@@ -109,21 +109,21 @@ streamlit run phase3_streamlit_app.py
 
 | 💡 手繪插畫教學版 | 💻 數位科技設計版 |
 | :---: | :---: |
-| ![SVM Kernel Trick Handdrawn Concept](./assets/svm_kernel_trick_handdrawn.jpg) | ![SVM Kernel Trick Digital Concept](./assets/svm_kernel_trick_infographic.jpg) |
+| ![SVM Kernel Trick Handdrawn Concept](./svm_kernel_trick_handdrawn.jpg) | ![SVM Kernel Trick Digital Concept](./svm_kernel_trick_infographic.jpg) |
 
 ---
 
 ### 2. 真實 RBF SVM 決策邊界與 3D 曲面 (SVC Decision Surface)
 Phase 2 訓練真實 RBF 核函數 SVM 後，在 2D 空間標記支持向量 (Support Vectors) 與決策間隔的 Contour，以及在 3D 空間呈現決策函數得分 $f(x, y)$ 的連續高度曲面。
 
-![Real RBF SVM Decision Surface](./assets/rbf_decision_surface.png)
+![Real RBF SVM Decision Surface](./rbf_decision_surface.png)
 
 ---
 
 ### 3. 3D 特徵空間拉升動態圖 (Matplotlib 3D Lifting Animation)
 Phase 1 輕量級 Matplotlib 動畫，展示資料點由 2D 平面動態拉升至 3D 拋物面，並被黃色平面線性切開的完整概念過程。
 
-![Matplotlib Kernel Trick Animation](./assets/matplotlib_kernel_trick.gif)
+![Matplotlib Kernel Trick Animation](./matplotlib_kernel_trick.gif)
 
 ---
 
