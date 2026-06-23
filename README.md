@@ -29,19 +29,6 @@
 5. **真實的 RBF SVM 決策函數曲面展示了核心技巧在實際中的運作方式。** SVM 並非顯式地計算高維投影，而是利用徑向基底函數 (RBF) 隱式地在希爾伯特空間中計算間隔，我們將其決策分數 $f(x, y)$ 視覺化為一個平滑的 3D 連續曲面。
 6. **整合式三欄工作室讓學生進行步驟式學習。** 透過左欄的「Step 1 (2D 平面)」與「Step 2 (3D 空間與 RBF 核)」切換，配合中欄的 3D 視覺化與右欄的即時原理說明，能徹底建立學生對超參數 C、Gamma 影響決策曲面幾何特徵的物理直覺。
 
----
-
-## 🎨 SVM 核心概念圖 (Concept Infographics)
-
-為了解釋低維不可分到高維線性可分的幾何轉換，本專案提供概念圖表，包含**手繪插畫教學版**與**數位科技設計版**（可於 [重點資訊與圖表指南](svm_project_infographic_report.md) 檢視完整說明）：
-
-### 💡 手繪插畫教學版
-![SVM Kernel Trick Handdrawn Concept](./svm_kernel_trick_handdrawn.jpg)
-
-### 💻 數位科技設計版
-![SVM Kernel Trick Digital Concept](./svm_kernel_trick_infographic.jpg)
-
----
 
 ## 安裝指南
 
